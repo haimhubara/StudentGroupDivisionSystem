@@ -37,6 +37,6 @@ To run the application:
 ## Screenshots
 Here are some screenshots of the app:
 
-![Screenshot 1](assets/screenshots/screens-1.png)
+![Screenshot 1](app/src/main/assets/screenshots/screens-1.png)
 
-![Screenshot 2](assets/screenshots/screens-2.png)
+![Screenshot 2](app/src/main/assets/screenshots/screens-2.png)
