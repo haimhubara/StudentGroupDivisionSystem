@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:layoutDirection="ltr"
+    tools:context=".CreateAmericanQuestionActivity">
+
+    <TextView
+        android:id="@+id/tv_num_of_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/question_x_from_y_questions"
+        android:textColorHint="@color/white"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_question_qua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="@string/the_question"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_below="@id/tv_num_of_question"
+        android:textSize="25sp">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tv_question_qua"
+        android:orientation="vertical">
+
+        <!-- Option 1 with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:minHeight="48dp"
+                android:hint="@string/option_1">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_option_1_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+               android:hint="@string/stats1"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- Option 2 with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="6dp"
+                android:textAllCaps="false"
+                android:padding="4dp"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:minHeight="48dp"
+                android:hint="@string/option_2">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_option_2_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+               android:hint="@string/stats2"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- Option 3 with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_margin="6dp"
+                android:textAllCaps="false"
+                android:padding="4dp"
+                android:minHeight="48dp"
+                android:hint="@string/option_3">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_option_3_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:hint="@string/stats3"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- Option 4 with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textColorHint="@color/white"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:minHeight="48dp"
+                android:hint="@string/option_4"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_option_4_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:hint="@string/stats4"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <!-- Option 5 with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_option_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:layout_margin="6dp"
+                android:textAllCaps="false"
+                android:padding="4dp"
+                android:minHeight="48dp"
+                android:hint="@string/option_5">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_option_5_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:hint="@string/stats5"
+                >
+            </TextView>
+
+        </LinearLayout>
+        <!-- Answer with stats -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_answer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColorHint="@color/white"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:layout_margin="6dp"
+                android:padding="4dp"
+                android:minHeight="48dp"
+                android:hint="@string/answer">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tv_answer_stats"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/white"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:minHeight="48dp"
+                android:hint="@string/answer_stats"
+                >
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:id="@+id/btn_prev_statistics"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginStart="80dp"
+                android:minHeight="48dp"
+                android:text="@string/previous_question"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white">
+            </Button>
+
+            <Button
+                android:id="@+id/btn_next_statistics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:minHeight="48dp"
+                android:text="Next"
+                android:layout_marginStart="40dp"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                >
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StudentApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:angle">270</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+
+    <style name="Theme.StudentApp" parent="Base.Theme.StudentApp" />
+</resources>

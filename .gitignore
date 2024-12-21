@@ -1,0 +1,27 @@
+# Android Studio
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build/
+/app/build/
+
+# Firebase
+google-services.json
+
+# Captures
+/captures
+
+# OS-specific
+Thumbs.db
+
+# Native Build
+.externalNativeBuild
+.cxx
+local.properties

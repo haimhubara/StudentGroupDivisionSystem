@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account_login">Already have account? Login</string>
+    <string name="student_sing_up">Student Sing UP</string>
+    <string name="student_sign_up">Student Sign Up</string>
+    <string name="teacher_teacher_login">Teacher? Teacher Login</string>
+    <string name="teacher_teacher_sign_up">Teacher? Teacher Sign Up</string>
+    <string name="employee_number">Employee Number</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="please_choose_your_role">Please choose your role:</string>
+    <string name="log_out">Log out</string>
+    <string name="upload_photo">Upload photo</string>
+    <string name="all_users">all users</string>
+    <string name="add_american_question">Add american Question</string>
+    <string name="todo">TODO</string>
+    <string name="the_question">the question</string>
+    <string name="add_edittext">Add EditText</string>
+    <string name="number_of_question">Number of Question</string>
+    <string name="question">Question</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="option_5">Option 5</string>
+    <string name="answer">Answer</string>
+    <string name="how_much_question_you_want_to_add">How much question you want to add?</string>
+    <string name="write_the_question">Write the question</string>
+    <string name="submit">Submit</string>
+    <string name="previous_question">Previous question</string>
+    <string name="new_quiz_from">New quiz from</string>
+    <string name="results_for_quiz">Results for quiz</string>
+    <string name="Touch_to_see_results_for_your_quiz"> Touch to see result for your quiz</string>
+    <string name="group_for_grades_85"><![CDATA[Group for grades > 85]]></string>
+    <string name="group_for_grades_75"><![CDATA[Group for 56 < grades <= 85]]></string>
+    <string name="group_for_grades_56"><![CDATA[Group for grades <= 56]]></string>
+    <string name="statistics">Statistics</string>
+    <string name="the_quiestion">The quiestion</string>
+    <string name="question_x_from_y_questions">question x from y questions</string>
+    <string name="stats1">stats1</string>
+    <string name="stats2">stats2</string>
+    <string name="stats3">stats3</string>
+    <string name="stats4">stats4</string>
+    <string name="stats5">stats5</string>
+    <string name="answer_stats">answer stats</string>
+    <string name="there_are_no_existing_tests">There are no existing tests</string>
+    <string name="profile_image">profile image</string>
+</resources>

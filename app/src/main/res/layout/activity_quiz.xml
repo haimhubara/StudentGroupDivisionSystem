@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".CreateAmericanQuestionActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_of_question"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:id="@+id/txt_num_of_question">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/question"
+        android:layout_marginTop="30sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/txt_question"
+        android:layout_below="@id/txt_num_of_question"
+        android:textSize="25sp"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/txt_question"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/option_1"
+            android:textAllCaps="false"
+            android:id="@+id/btn_option_1"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/option_2"
+            android:textAllCaps="false"
+            android:id="@+id/btn_option_2"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/option_3"
+            android:textAllCaps="false"
+            android:id="@+id/btn_option_3"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white">
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/option_4"
+            android:textAllCaps="false"
+            android:id="@+id/btn_option_4"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="4dp"
+            android:text="@string/option_5"
+            android:textAllCaps="false"
+            android:id="@+id/btn_option_5"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/white">
+        </Button>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
