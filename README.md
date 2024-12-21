@@ -32,7 +32,7 @@ To run the application:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourapp.git
+   git clone https://github.com/haimhubara/StudentGroupDivisionSystem.git
 
 ## Screenshots
 Here are some screenshots of the app:
